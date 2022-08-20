@@ -20,6 +20,7 @@
     <!--Шапка-->
 
     <header class="page-header">
+        <div class="container page-header-container">
 
         <nav class="page-nav">
 
@@ -45,10 +46,17 @@
             
 
            <ul class="contact list">
-            <li><a href="tel:+380961111111" class="contact-phone-number lines ">+38 096 111 11 11</a></li>
-            <li><a href="mailto:info@devstudio.com" class="contact-phone-number lines ">info@devstudio.com</a></li>
+         
+            <li>
+               
+                <a href="tel:+380961111111" class="contact-phone-number lines ">+38 096 111 11 11</a>
+            </li>
+            <li>
+                <a href="mailto:info@devstudio.com" class="contact-phone-number lines ">info@devstudio.com</a>
+            </li>
 
            </ul>
+        </div>  
 
       
 
@@ -59,102 +67,110 @@
 
 <!--Герой-->
 <section class="hero">
+    <div class="container page-hero-container">
 
 <h1 class="hero-titel">Ефективні рішення для вашого бізнесу</h1>
 <button type="button" class="modal-open-btn pramery">Замовити послугу</button>
+
+</div>
 
 </section>
 
 <!--Предложение-->
 
-<section class="section">
+<section class="section section-sentence">
+<div class="container container-section-sentence">
     <h2 class="section-titel">Наші переваги</h2>
     <ul class="sentence-list list">
-        <li>
-            <h2 class="titel">УВАГА ДО ДЕТАЛЕЙ</h2>
+        <li class="section-sentence-item">
+            <h2 class="titel subtitel">УВАГА ДО ДЕТАЛЕЙ</h2>
             <p class="title-list">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
         </li>
     
     
-        <li>
-            <h2 class="titel">ПУНКТУАЛЬНІСТЬ</h2>
+        <li class="section-sentence-item">
+            <h2 class="titel subtitel">ПУНКТУАЛЬНІСТЬ</h2>
             <p class="title-list">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
         </li>
    
-        <li>
-            <h2 class="titel">ПЛАНУВАННЯ</h2>
+        <li class="section-sentence-item">
+            <h2 class="titel subtitel">ПЛАНУВАННЯ</h2>
             <p class="title-list">Так само консультація з широким активом значною мірою зумовлює.</p>
         </li>
    
-        <li>
-            <h2 class="titel">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+        <li class="section-sentence-item">
+            <h2 class="titel subtitel">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
             <p class="title-list">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
     </ul>
+    </div>
 
 </section>
 
 
 <!--Чем занимается студия-->
 <section class="section-do">
-
+<div class="container container-section-do">
    <h2 class="section-titel">Чим ми займаємося</h2>
-   <ul class="section-list  list">
-    <li>
+   <ul class="section-list-do  list">
+    <li class="section-list-do-item">
         <img src="./images/img-1.jpg" alt="ноутбук" width="370"> 
     </li>
   
-    <li>
+    <li class="section-list-do-item">
         <img src="./images/img-2.jpg" alt="телефон" width="370">
     </li>
 
-    <li>
+    <li class="section-list-do-item">
         <img src="./images/img-3.jpg" alt="планшет" width="370">
     </li>
 </ul>
-
+</div>
 </section>
 
 <!--Команда-->
-<section class="section team ">
+<section class="section section team ">
+
+    <div class="container">
 
     <h2 class="section-titel ">Наша команда</h2>
 
     <ul class="team-list list">
-        <li>
+        <li class="team-list-link">
             
-                <img src="./images/unknown.jpg" alt="мужчина" width="270">
-                <h2 class="team-title">Ігор Дем'яненко</h2> 
+                <img src="./images/unknown.jpg" class="team-list-link-img" alt="мужчина" width="270">
+                <h2 class="team-title subtitel">Ігор Дем'яненко</h2> 
                 <p class="work-title">Product Designer</p> 
             
         </li>
 
-    <li>
+    <li class="team-list-link">
 
-    <img src="./images/unknown2.jpg" alt="женщина" width="270">
-     <h2 class="team-title ">Ольга Рєпіна</h2>
+    <img src="./images/unknown2.jpg"class="team-list-link-img" alt="женщина" width="270">
+     <h2 class="team-title subtitel">Ольга Рєпіна</h2>
      <p class="work-title">Frontend Developer</P>
      
 
     </li>
 
-    <li>
+    <li class="team-list-link">
 
-    <img src="./images/unknown3.jpg" alt="мужчина" width="270">
-    <h2 class="team-title">Микола Тарасов</h2>
+    <img src="./images/unknown3.jpg"class="team-list-link-img" alt="мужчина" width="270">
+    <h2 class="team-title subtitel">Микола Тарасов</h2>
     <P class="work-title">Marketing</P>
 
     </li>
 
 
-    <li>
+    <li class="team-list-link">
    
-        <img src="./images/unknown4.jpg" alt="мужчина" width="270">
-        <h2 class="team-title">Михайло Єрмаков</h2>
+        <img src="./images/unknown4.jpg"class="team-list-link-img" alt="мужчина" width="270">
+        <h2 class="team-title subtitel">Михайло Єрмаков</h2>
         <P class="work-title">UI Designer</P>
     </li>
 </ul>
 
+</div>
 
 </section>
 
@@ -162,9 +178,12 @@
 
 <footer class="footer">
 
-        <a href="./index.html" class="logo-footer lines "><span class="logo-web-footer">Web</span>Studio</a>
+    <div class="container container-footer">
 
-    <address>
+      
+        <a href="./index.html" class="logo-footer lines"><span class="logo-web-footer">Web</span>Studio</a>
+
+    <address class="footer-address">
 
     <ul class="footer-titel list">
 
