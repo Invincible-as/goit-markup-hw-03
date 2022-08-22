@@ -226,6 +226,7 @@ font-weight: 500;
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    
    
 }
 
@@ -237,7 +238,9 @@ font-weight: 500;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         width: 696px;
-   
+       margin-left: auto;
+       margin-right: auto;
+  
        
       
 
@@ -264,6 +267,8 @@ font-weight: 500;
         font-size: 16px;
         line-height: 1.9;
         letter-spacing: 0.06em;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
   
      
         
@@ -480,10 +485,12 @@ font-weight: 700;
 
 }
 
-.footer-titel:not(:last-child) {
-display: inline-block;
-    margin-bottom: 9px;
+.footer-titel{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
+
 
    
 
